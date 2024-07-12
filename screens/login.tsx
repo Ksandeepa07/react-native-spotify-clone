@@ -16,7 +16,7 @@ export default function login() {
       
      
      {Object.entries(dimensions).map(([key, value]) => (
-        <View key={key}  style={{ width, height, backgroundColor: '#191414',paddingTop:'10%'}}>
+        <View key={key}  style={{ width, height, backgroundColor: '#191414',display:'flex',justifyContent:'center'}}>
          
         <Text style={styles.emailTxt}>Email or Username</Text>
         <TextInput style={styles.input} />

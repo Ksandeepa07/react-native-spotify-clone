@@ -1,7 +1,7 @@
 import { View, Text,Image } from 'react-native'
 import React from 'react'
 
-export default function searchBoxes(props) {
+export default function searchBoxes(props:any) {
   return (
     <View style={[styles.singlePost,{backgroundColor:props.boxColor}]}>
     <Text numberOfLines={2} lineBreakMode='tail' style={{color:'#fff',fontWeight:'bold',margin:6}}>{props.titleName}</Text>

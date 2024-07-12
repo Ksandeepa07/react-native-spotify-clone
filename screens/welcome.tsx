@@ -16,7 +16,7 @@ export default function Index() {
 
       {Object.entries(dimensions).map(([key, value]) => (
 
-        <View key={key} style={{ width, height, backgroundColor: '#191414', display: 'flex', alignItems: 'center' }}>
+        <View key={key} style={{ width, height, backgroundColor: '#191414', display: 'flex', alignItems: 'center'}}>
 
           <Image style={styles.logo} source={require('../assets/images/spotify-logo.png')} />
 
@@ -51,7 +51,7 @@ export default function Index() {
 
 const styles = StyleSheet.create({
   logo: {
-    marginTop: '10%',
+    marginTop: '30%',
     marginBottom: '10%',
     width: 100,
     height: 100,

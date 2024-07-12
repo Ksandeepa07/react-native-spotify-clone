@@ -2,11 +2,11 @@ import { View, Text, StyleSheet,Dimensions,Image} from 'react-native'
 import React,{useState, useEffect} from 'react'
 import Welcome from '@/screens/welcome';
 import Login from '@/screens/login';
-import Search from '@/screens/search';
 import AppBar from '@/components/AppBar';
 import Home from '@/screens/Home';
+import SearchScreen from '@/screens/SearchScreen';
 
-
+ 
 
 
 export default function welcome() {
@@ -15,14 +15,17 @@ export default function welcome() {
   const { width, height } = dimensions;
 
   return (
-    <View>
+    
 
+    <View>
+  
       {/* <AppBar></AppBar> */}
       {/* <Welcome></Welcome> */}
       {/* <Login></Login> */}
-      {/* <Search></Search> */}
+      
+      <SearchScreen></SearchScreen>
 
-       <Home></Home>
+       {/* <Home></Home> */}
 
      
      
