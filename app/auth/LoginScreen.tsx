@@ -13,7 +13,6 @@ export default function login() {
 
   return (
     <View >
-      
      
      {Object.entries(dimensions).map(([key, value]) => (
         <View key={key}  style={{ width, height, backgroundColor: '#191414',display:'flex',justifyContent:'center'}}>

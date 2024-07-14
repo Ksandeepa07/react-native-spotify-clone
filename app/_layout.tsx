@@ -10,14 +10,13 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 export default function RootLayout() {
 
-
   return (
 
      <Stack screenOptions={{headerShown:false}}>
-     <Stack.Screen name="(tabs)" />
+     {/* <Stack.Screen name="(tabs)"/> */}
+     {/* <Stack.Screen name="(auth)"/> */}
+
      </Stack>
-
   )
-
 
 }

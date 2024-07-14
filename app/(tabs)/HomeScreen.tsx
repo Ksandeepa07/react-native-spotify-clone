@@ -1,11 +1,12 @@
 import { View, Text, Image, Dimensions, ScrollView } from 'react-native'
 import React from 'react'
-import { Button } from 'react-native-elements';
+import { Button, Header } from 'react-native-elements';
 import { color } from 'react-native-elements/dist/helpers';
 import AppBar from '@/components/AppBar';
 import PopularArtist from '@/components/PopularArtist';
 import TrySomething from '@/components/TrySomething';
 import FreshMusic from '@/components/FreshMusic';
+import TopBar from '@/components/TopBar';
 
 export default function Home() {
   const dimensions = Dimensions.get('window');
@@ -15,13 +16,17 @@ export default function Home() {
    
 
 
-    <View style={{ height: '100%', backgroundColor: '#191414', paddingTop: 40 }}>
+    <View style={{ height: '100%', backgroundColor: '#191414', paddingTop: 70 }}>
 
-      <View style={styles.topSearchContainer}>
+      {/* <View style={styles.topSearchContainer}>
         <Image style={styles.topSearchProfileCircle} source={require('../../assets/images/user.png')}></Image>
         <Button title='All' buttonStyle={styles.btn} titleStyle={styles.btnTitle}></Button>
         <Button title='Music' buttonStyle={styles.btnMusic} titleStyle={styles.btnTitle}></Button>
-      </View>
+      </View> */}
+
+      <TopBar></TopBar>
+
+             
 
       <ScrollView >
 
