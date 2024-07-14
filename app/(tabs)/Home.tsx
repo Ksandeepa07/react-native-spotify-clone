@@ -12,11 +12,13 @@ export default function Home() {
   const { width, height } = dimensions;
   return (
 
+   
+
 
     <View style={{ height: '100%', backgroundColor: '#191414', paddingTop: 40 }}>
 
       <View style={styles.topSearchContainer}>
-        <Image style={styles.topSearchProfileCircle} source={require('../assets/images/user.png')}></Image>
+        <Image style={styles.topSearchProfileCircle} source={require('../../assets/images/user.png')}></Image>
         <Button title='All' buttonStyle={styles.btn} titleStyle={styles.btnTitle}></Button>
         <Button title='Music' buttonStyle={styles.btnMusic} titleStyle={styles.btnTitle}></Button>
       </View>
@@ -27,10 +29,10 @@ export default function Home() {
 
         <View style={styles.popularArtisContainer}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-            <PopularArtist source={require('../assets/images/artist1.jpeg')} artistName={"Coldplay"}></PopularArtist>
-            <PopularArtist source={require('../assets/images/artist2.jpeg')} artistName={"NF"}></PopularArtist>
-            <PopularArtist source={require('../assets/images/artist3.jpeg')} artistName={"Ryan Caraveo"}></PopularArtist>
-            <PopularArtist source={require('../assets/images/user.png')} artistName={"Billie Eilish"}></PopularArtist>
+            <PopularArtist source={require('../../assets/images/artist1.jpeg')} artistName={"Coldplay"}></PopularArtist>
+            <PopularArtist source={require('../../assets/images/artist2.jpeg')} artistName={"NF"}></PopularArtist>
+            <PopularArtist source={require('../../assets/images/artist3.jpeg')} artistName={"Ryan Caraveo"}></PopularArtist>
+            <PopularArtist source={require('../../assets/images/user.png')} artistName={"Billie Eilish"}></PopularArtist>
           </ScrollView>
         </View>
 
@@ -38,10 +40,10 @@ export default function Home() {
 
         <View style={styles.trySomethingElseContainer}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-            <TrySomething source={require('../assets/images/trySomthing1.jpeg')} name={"Soft Pop Hits"} desc={"Warm familiar pop you know and love."}></TrySomething>
-            <TrySomething source={require('../assets/images/trySomthing2.jpeg')} name={"Mega Hit Mix"} desc={"A mega mix of 75 favorites from the last few years!"}></TrySomething>
-            <TrySomething source={require('../assets/images/trySomthing3.jpeg')} name={"Throwback "} desc={"Here it is, the playlist for the ultimate throwback bash!"}></TrySomething>
-            <TrySomething source={require('../assets/images/trySomthing4.jpeg')} name={"Mega Hit Mix"} desc={"A mega mix of 75 favorites from the last few years!"}></TrySomething>
+            <TrySomething source={require('../../assets/images/trySomthing1.jpeg')} name={"Soft Pop Hits"} desc={"Warm familiar pop you know and love."}></TrySomething>
+            <TrySomething source={require('../../assets/images/trySomthing2.jpeg')} name={"Mega Hit Mix"} desc={"A mega mix of 75 favorites from the last few years!"}></TrySomething>
+            <TrySomething source={require('../../assets/images/trySomthing3.jpeg')} name={"Throwback "} desc={"Here it is, the playlist for the ultimate throwback bash!"}></TrySomething>
+            <TrySomething source={require('../../assets/images/trySomthing4.jpeg')} name={"Mega Hit Mix"} desc={"A mega mix of 75 favorites from the last few years!"}></TrySomething>
           </ScrollView>
         </View>
 
@@ -49,10 +51,10 @@ export default function Home() {
 
         <View style={styles.freshMussicContainer}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-            <FreshMusic source={require('../assets/images/freshMusic1.jpeg')} name={"Frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
-            <FreshMusic source={require('../assets/images/freshMusic2.jpeg')} name={"Christian"} desc={"he best new tracks of all Christian, Gospel,"}></FreshMusic>
-            <FreshMusic source={require('../assets/images/freshMusic3.jpeg')} name={"The Core  "} desc={"metalcore at its best. Cover:Windwaker"}></FreshMusic>
-            <FreshMusic source={require('../assets/images/freshMusic1.jpeg')} name={"frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic1.jpeg')} name={"Frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic2.jpeg')} name={"Christian"} desc={"he best new tracks of all Christian, Gospel,"}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic3.jpeg')} name={"The Core  "} desc={"metalcore at its best. Cover:Windwaker"}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic1.jpeg')} name={"frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
           </ScrollView>
         </View>
 
@@ -60,10 +62,10 @@ export default function Home() {
 
         <View style={styles.freshMussicContainer}>
           <ScrollView horizontal={true} showsHorizontalScrollIndicator={false}>
-            <FreshMusic source={require('../assets/images/freshMusic1.jpeg')} name={"This is frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
-            <FreshMusic source={require('../assets/images/freshMusic2.jpeg')} name={"Mega Hit Mix"} desc={"A mega mix of 75 favorites from the last few years!"}></FreshMusic>
-            <FreshMusic source={require('../assets/images/freshMusic3.jpeg')} name={"The Core "} desc={"metalcore at its best. Cover:Windwaker"}></FreshMusic>
-            <FreshMusic source={require('../assets/images/freshMusic1.jpeg')} name={"frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic1.jpeg')} name={"This is frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic2.jpeg')} name={"Mega Hit Mix"} desc={"A mega mix of 75 favorites from the last few years!"}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic3.jpeg')} name={"The Core "} desc={"metalcore at its best. Cover:Windwaker"}></FreshMusic>
+            <FreshMusic source={require('../../assets/images/freshMusic1.jpeg')} name={"frequency"} desc={"New music from Black artists every Friday."}></FreshMusic>
           </ScrollView>
         </View>
 
@@ -71,7 +73,7 @@ export default function Home() {
 
       </ScrollView>
 
-      <AppBar></AppBar>
+      {/* <AppBar></AppBar> */}
 
 
     </View>

@@ -6,25 +6,16 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import { Tabs } from 'expo-router';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-import SearchScreen from "@/screens/SearchScreen";
-import Home from "@/screens/Home";
-
-
-
 
 
 export default function RootLayout() {
 
-  // const Stack = createStackNavigator();
-
 
   return (
 
-     <Stack>
-     <Stack.Screen name="index" options={{headerShown:false}} />
+     <Stack screenOptions={{headerShown:false}}>
+     <Stack.Screen name="(tabs)" />
      </Stack>
-
-    
 
   )
 
